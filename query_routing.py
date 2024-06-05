@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import json
 
 # Open the JSON file
-with open('/home/shiroyasha/ML/final_darpg_proj/label_dict_inverse.json', 'r') as file:
+with open('https://github.com/KunalBainsla/DARPG-P1/blob/main/label_dict_inverse.json', 'r') as file:
     # Load the content of the file and convert it to a dictionary
     label_dict_inverse = json.load(file)
 
